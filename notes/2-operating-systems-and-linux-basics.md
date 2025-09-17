@@ -206,5 +206,19 @@ Users can have multiple groups
     
     $ EDITOR	Default text editor	vim or nano
 
+* Permanent Variables:
   
+    User-specific: Add to ~/.bashrc or ~/.profile
+
+    System-wide: Add to /etc/environment or /etc/profile
+  
+* Useful Commands:
+  
+    unset VARIABLE          # Remove an environment variable
+  
+    env -i command          # Run command with empty environment
+  
+    set -a                  # Automatically export all variables
+  
+    source .env             # Load variables from a file
 
