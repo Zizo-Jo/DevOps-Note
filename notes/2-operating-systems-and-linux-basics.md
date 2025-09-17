@@ -160,3 +160,6 @@ Users can have multiple groups
 * chmod o+x <filename> (add execute permission for others)
 * chmod g=rwx <filename> (sets specific block permissions for group)
 * chmod 777 <filename> (gives all permission to all owners)
+
+
+### Bash Shell Scripting
