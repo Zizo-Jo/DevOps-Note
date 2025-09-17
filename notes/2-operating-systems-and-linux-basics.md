@@ -222,3 +222,11 @@ Users can have multiple groups
   
      * source .env             # Load variables from a file
 
+### SSH
+* Connect to a remote server: ssh [username]@[hostname or IP_address]
+
+* Copy a file to a remote server: scp [local_file_path] [username]@[hostname or IP_address]:[remote_directory]
+
+* Copy a file from a remote server: scp [username]@[hostname or IP_address]:[remote_file_path] [local_directory]
+
+* Generate an SSH key pair: ssh-keygen
