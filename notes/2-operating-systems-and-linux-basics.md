@@ -182,43 +182,43 @@ Users can have multiple groups
      $*: All arguments as single string
   
 ### Linux Environment Variables
-  * View environment
+#####View environment
   
-     printenv          # Display all environment variables
+     * printenv          # Display all environment variables
     
-     echo $VARIABLE    # Display a specific variable
+     * echo $VARIABLE    # Display a specific variable
     
-     env               # Another way to display all variables
+     * env               # Another way to display all variables
 
-* Common Environment Variables
+#####Common Environment Variables
   
-     $ HOME	User's home directory	/home/username
+     * $ HOME	User's home directory	/home/username
     
-     $ PATH	Directories searched for executables	/usr/bin:/bin
+     * $ PATH	Directories searched for executables	/usr/bin:/bin
     
-     $ USER	Current username	username
+     * $ USER	Current username	username
     
-     $ SHELL	Current shell	/bin/bash
+     * $ SHELL	Current shell	/bin/bash
     
-     $ PWD	Current working directory	/home/username/project
+     * $ PWD	Current working directory	/home/username/project
     
-     $ LANG	Current language/locale	en_US.UTF-8
+     * $ LANG	Current language/locale	en_US.UTF-8
     
-     $ EDITOR	Default text editor	vim or nano
+     * $ EDITOR	Default text editor	vim or nano
 
-* Permanent Variables:
+#####Permanent Variables:
   
-     User-specific: Add to ~/.bashrc or ~/.profile
+     * User-specific: Add to ~/.bashrc or ~/.profile
 
-     System-wide: Add to /etc/environment or /etc/profile
+     * System-wide: Add to /etc/environment or /etc/profile
   
-* Useful Commands:
+#####Useful Commands:
   
-     unset VARIABLE          # Remove an environment variable
+     * unset VARIABLE          # Remove an environment variable
   
-     env -i command          # Run command with empty environment
+     * env -i command          # Run command with empty environment
   
-     set -a                  # Automatically export all variables
+     * set -a                  # Automatically export all variables
   
-     source .env             # Load variables from a file
+     * source .env             # Load variables from a file
 
