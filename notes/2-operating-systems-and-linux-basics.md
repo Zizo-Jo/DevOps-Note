@@ -182,7 +182,7 @@ Users can have multiple groups
      $*: All arguments as single string
   
 ### Linux Environment Variables
-#####View environment
+##### View environment
   
      * printenv          # Display all environment variables
     
@@ -190,7 +190,7 @@ Users can have multiple groups
     
      * env               # Another way to display all variables
 
-#####Common Environment Variables
+##### Common Environment Variables
   
      * $ HOME	User's home directory	/home/username
     
@@ -206,13 +206,13 @@ Users can have multiple groups
     
      * $ EDITOR	Default text editor	vim or nano
 
-#####Permanent Variables:
+##### Permanent Variables:
   
      * User-specific: Add to ~/.bashrc or ~/.profile
 
      * System-wide: Add to /etc/environment or /etc/profile
   
-#####Useful Commands:
+##### Useful Commands:
   
      * unset VARIABLE          # Remove an environment variable
   
