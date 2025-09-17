@@ -166,11 +166,11 @@ Users can have multiple groups
 * #!/bin/bash  # Shebang: Tells system to use Bash interpreter
 * Access with $ variable or ${variable}
 * Read input: read -p "Prompt: " var
-* Conditionals : Operators: -eq, -ne, -lt, -gt, -z (empty string)
-* Functions : Arguments: $1, $2, ... (not $0 which is the script name)
+* Operators: -eq, -ne, -lt, -gt, -z (empty string)
 * String Manipulation : Substring: ${string:start:length}
 * Check for File/Directory : if [[ -f/-d "$file" ]]; then
 * Special Variables :
+  
     $0: Script name
   
     $1, $2, ...: Arguments
