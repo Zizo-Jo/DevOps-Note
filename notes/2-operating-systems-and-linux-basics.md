@@ -164,7 +164,7 @@ Users can have multiple groups
 
 ### Bash Shell Scripting
 * #!/bin/bash  # Shebang: Tells system to use Bash interpreter
-* Access with $variable or ${variable}
+* Access with $ variable or ${variable}
 * Read input: read -p "Prompt: " var
 * Conditionals : Operators: -eq, -ne, -lt, -gt, -z (empty string)
 * Functions : Arguments: $1, $2, ... (not $0 which is the script name)
@@ -172,7 +172,11 @@ Users can have multiple groups
 * Check for File/Directory : if [[ -f/-d "$file" ]]; then
 * Special Variables :
     $0: Script name
+  
     $1, $2, ...: Arguments
+  
     $#: Number of arguments
+  
     $@: All arguments as list
+  
     $*: All arguments as single string
