@@ -170,41 +170,41 @@ Users can have multiple groups
 * String Manipulation : Substring: ${string:start:length}
 * Check for File/Directory : if [[ -f/-d "$file" ]]; then
 * Special Variables :
+    
+    $0: Script name
   
-  $0: Script name
-
-  $1, $2, ...: Arguments
-
-  $#: Number of arguments
-
-  $@: All arguments as list
-
-  $*: All arguments as single string
+    $1, $2, ...: Arguments
+  
+    $#: Number of arguments
+  
+    $@: All arguments as list
+  
+    $*: All arguments as single string
   
 ### Linux Environment Variables
-* View environment
-
-  printenv          # Display all environment variables
+  * View environment
   
-  echo $VARIABLE    # Display a specific variable
-  
-  env               # Another way to display all variables
+    printenv          # Display all environment variables
+    
+    echo $VARIABLE    # Display a specific variable
+    
+    env               # Another way to display all variables
 
 * Common Environment Variables
   
-  $ HOME	User's home directory	/home/username
-  
-  $ PATH	Directories searched for executables	/usr/bin:/bin
-  
-  $ USER	Current username	username
-  
-  $ SHELL	Current shell	/bin/bash
-  
-  $ PWD	Current working directory	/home/username/project
-  
-  $ LANG	Current language/locale	en_US.UTF-8
-  
-  $ EDITOR	Default text editor	vim or nano
+    $ HOME	User's home directory	/home/username
+    
+    $ PATH	Directories searched for executables	/usr/bin:/bin
+    
+    $ USER	Current username	username
+    
+    $ SHELL	Current shell	/bin/bash
+    
+    $ PWD	Current working directory	/home/username/project
+    
+    $ LANG	Current language/locale	en_US.UTF-8
+    
+    $ EDITOR	Default text editor	vim or nano
 
   
 
