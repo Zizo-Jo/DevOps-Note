@@ -7,6 +7,8 @@ It is a binary or source code that is used to deploy an application.
 For example a jar file is a artifact.
 Java can produce a jar file or a war file.
 
+For Gradle: gradle build 
+For Maven : mvn install
 #### What is inside a jar file?
 
 A jar file is a zip file that contains a manifest file and the classes and resources of the application.
