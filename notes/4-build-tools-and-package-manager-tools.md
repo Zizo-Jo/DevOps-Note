@@ -8,6 +8,7 @@ For example a jar file is a artifact.
 Java can produce a jar file or a war file.
 
 For Gradle: gradle build 
+
 For Maven : mvn install
 #### What is inside a jar file?
 
