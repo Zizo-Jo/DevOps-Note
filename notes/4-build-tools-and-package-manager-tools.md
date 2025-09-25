@@ -7,9 +7,13 @@ It is a binary or source code that is used to deploy an application.
 For example a jar file is a artifact.
 Java can produce a jar file or a war file.
 
-For Gradle: gradle build 
+For Gradle: gradle build store dependency/repository file in build.gradle
 
-For Maven : mvn install
+For Maven : mvn install store dependency/repository file in pom.xml
+
+Run with java -jar <java.jar>
+
+
 #### What is inside a jar file?
 
 A jar file is a zip file that contains a manifest file and the classes and resources of the application.
@@ -17,6 +21,13 @@ The manifest file contains information about the application like the main class
 For example (Java)maven uses the pom.xml as it manifest file.
 Node uses the package.json as it manifest file.
 
+#### Build JS application
+1. npm or yarn <-> packet manager
+2. package.json file for dependencies
+3. package manager
+4. npm pack > tgz file
+
+Better to package into WAR
 ### What is a artifactory and why do we need it?
 
 A artifactory is a repository that stores artifacts.
