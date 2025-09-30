@@ -14,9 +14,7 @@ This is very useful when you want to automate the process of pushing and pulling
 #### Features:
 
 - Integrate with LDAP(Giving permissions)
-
 - Backup + Cleanup Policies
-
 - Metadata tagging
 
 #### Repository Type:
@@ -24,7 +22,9 @@ This is very useful when you want to automate the process of pushing and pulling
 - Hosted: Storage
 - Groups: Composite Proxy and Hosted as an endpoint
 
-
+#### Github vs Nexus
+- GitHub is used for source code
+- Nexus is used for storing the artifacts(compiled codes)
 
 It also has multi tenancy support what means you can create multiple repositories for different users.
 This is very useful when you have multiple teams that use the same nexus repository.
