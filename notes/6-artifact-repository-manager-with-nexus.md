@@ -1,9 +1,7 @@
 ## 6 - Artifact Repository Manager with Nexus
 
 Nexus does support a lot of types of artifacts like docker images, npm packages, maven packages, etc.
-This means it is a good choice for a artifactory. It is also very easy to setup and use.
-The downside of Nexus is it can get messy very easy because it has so much features.
-My recommendation is to use Nexus for storing docker images, composer(php) and maven packages.
+This means it is a good choice for an **artifactory**. 
 
 Nexus also can be like a proxy for other repositories like npmjs, maven central, etc.
 This has as advantage that you can use your own nexus repository as a proxy for other repositories.
@@ -20,6 +18,11 @@ This is very useful when you want to automate the process of pushing and pulling
 - Backup + Cleanup Policies
 
 - Metadata tagging
+
+#### Repository Type:
+- Proxy: A copy of the hosted, similar to cached
+- Hosted: Storage
+- Groups: Composite Proxy and Hosted as an endpoint
 
 
 
