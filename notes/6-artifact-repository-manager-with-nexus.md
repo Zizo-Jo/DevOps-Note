@@ -15,11 +15,11 @@ This is very useful when you want to automate the process of pushing and pulling
 
 #### Features:
 
-Integrate with LDAP(Giving permissions)
+- Integrate with LDAP(Giving permissions)
 
-Backup + Cleanup Policies
+- Backup + Cleanup Policies
 
-Metadata tagging
+- Metadata tagging
 
 
 
