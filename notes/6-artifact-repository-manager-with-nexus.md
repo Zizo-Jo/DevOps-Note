@@ -13,6 +13,16 @@ This way you can use your own nexus repository as a cache for other repositories
 Nexus also has a rest api what can be used to push and pull artifacts.
 This is very useful when you want to automate the process of pushing and pulling artifacts.
 
+#### Features:
+
+Integrate with LDAP(Giving permissions)
+
+Backup + Cleanup Policies
+
+Metadata tagging
+
+
+
 It also has multi tenancy support what means you can create multiple repositories for different users.
 This is very useful when you have multiple teams that use the same nexus repository.
 
