@@ -14,7 +14,7 @@ This is very useful when you want to automate the process of pushing and pulling
 #### Features:
 
 - Integrate with LDAP(Giving permissions)
-- Backup + Cleanup Policies
+- Backup + Cleanup Policies and Scheduled task
 - Metadata tagging
 
 #### Repository Type:
@@ -48,3 +48,7 @@ Examples how to use the nexus api:
 - list all assets for specific component
   ``` curl -u user:pwd -X GET 'http://6{host}:8081/service/rest/v1/components/<ID>'  ```
 
+### Blob Store 
+- Types: Cloud storage like S3 or System-based storage
+- Can not be modified or deleted
+- A **components**(folders of articrafct based on version) contains many **assest**(files)
