@@ -87,7 +87,7 @@ There are 2 types of credentials:
 ### Jenkins Shared Library
 
 Jenkins can share code between jobs. This is very useful when you have multiple jobs that do the same thing.
-You can create a shared library and use it in multiple jobs.
+You can create a shared library and use it in multiple jobs. Similar to function(to reuse)
 
 ### Versioning the app
 
