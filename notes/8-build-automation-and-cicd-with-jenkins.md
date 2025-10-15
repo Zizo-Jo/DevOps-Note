@@ -106,3 +106,7 @@ There are 3 parts of a versions <major>.<minor>.<patch>-<suffix> eg: v1.2.3-SNAP
 * patch: minor changes and bug fixes, no change to API or functionality mostly typos or small fixes
 * suffix: provides more info about the version, eg: SNAPSHOT, ALPHA, BETA, RELEASE, etc.
 
+* For maven: parse-version version:set, -DnewVersion=\${parsedVersion.majorVersion}.\parsedVersion.minorVersion}.\parsedVersion.nextIncrementalVersion}
+
+  Incremental stage before build stage app.
+
